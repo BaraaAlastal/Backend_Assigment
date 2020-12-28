@@ -1,25 +1,10 @@
-<!DOCTYPE HTML>
-<html>  
+<!DOCTYPE HTML> 
 <body>
-<h3>here you can enter data using post method:</h3>
-    <div style="margin-left: 100px">
-<form action="post_method.php" method="post">
-    name:    <input type="text" name="name" style="margin-left:20px"><br>
-    <br>
-    massage: <input type="text" name="massage"><br>
-    <br>
-<input  type="submit" name="submit">
-</form>
-        </div>
-<h3>and here, you can enter data using GET method:</h3>
-    <div style="margin-left: 100px">
-<form action="get_method.php" method="get">
-    name:    <input type="text" name="name" style="margin-left:20px"><br>
-    <br>
-    massage: <input type="text" name="massage"><br>
-    <br>
-<input type="submit">
-</form>
-        </div>
-</body>
+    <form action="http://127.0.0.1:8000/data" method="POST">  
+        Message: <input type="text" name="message">  <br>  
+        <br> 
+        Name: <input type="text" name="name" style="margin-left:18px">  
+        <input type="submit" value="Submit">  
+        </form>  
+        </body> 
 </html>
